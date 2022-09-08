@@ -2,7 +2,7 @@
 
 [![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/data-integrity-context/Node.js%20CI)](https://github.com/digitalbazaar/data-integrity-context/actions?query=workflow%3A%22Node.js+CI%22)
 [![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/data-integrity-context)](https://codecov.io/gh/digitalbazaar/data-integrity-context)
-[![NPM Version](https://img.shields.io/npm/v/data-integrity-context.svg)](https://npm.im/data-integrity-context)
+[![NPM Version](https://img.shields.io/npm/v/@digitalbazaar/data-integrity-context.svg)](https://npm.im/@digitalbazaar/data-integrity-context)
 
 > A Data Integrity context library for JavaScript.
 
