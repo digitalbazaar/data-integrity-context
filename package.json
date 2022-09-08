@@ -1,6 +1,6 @@
 {
   "name": "@digitalbazaar/data-integrity-context",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "A Data Integrity context library for JavaScript.",
   "main": "js/index.js",
   "module": "./dist/context.esm.js",
