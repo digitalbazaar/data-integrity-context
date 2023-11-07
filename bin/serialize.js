@@ -6,11 +6,18 @@
 
 const fs = require('fs');
 const path = require('path');
-const context = require('../js/context');
+const contextV1 = require('../js/data-integrity-v1');
+const contextV2 = require('../js/data-integrity-v2');
 const constants = require('../js/constants');
 
-// Serialize the context as JSON-LD
+// Serialize the context V1 as JSON-LD
 fs.writeFileSync(
-  path.join(__dirname, '..', 'contexts', constants.CONTEXT_FILENAME),
-  JSON.stringify(context, null, 2)
+  path.join(__dirname, '..', 'contexts', constants.CONTEXT_FILENAME_V1),
+  JSON.stringify(contextV1, null, 2)
+);
+
+// Serialize the context V2 as JSON-LD
+fs.writeFileSync(
+  path.join(__dirname, '..', 'contexts', constants.CONTEXT_FILENAME_V2),
+  JSON.stringify(contextV2, null, 2)
 );
