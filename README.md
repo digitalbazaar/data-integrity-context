@@ -38,8 +38,11 @@ dataIntegrity.CONTEXT_URL
 // 'https://w3id.org/security/data-integrity/v2'
 
 // Codec term map value for CBOR-LD
-dataIntegrity.constants.CBORLD_CODEC_VALUE
+dataIntegrity.constants.CBORLD_VALUE_V1
 // 0x30
+
+dataIntegrity.constants.CBORLD_VALUE
+// 0x33
 
 // get context data for a specific context
 dataIntegrity.CONTEXT

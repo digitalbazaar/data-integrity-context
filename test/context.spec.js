@@ -14,6 +14,7 @@ describe('Data Integrity Context', () => {
   it('constants', async () => {
     expect(appContextMap).to.exist;
     expect(constants).to.exist;
+    expect(constants).to.have.property('CBORLD_VALUE_V1');
     expect(constants).to.have.property('CBORLD_VALUE');
     expect(DATA_INTEGRITY_CONTEXT_V1_URL).to.exist;
     expect(DATA_INTEGRITY_CONTEXT_V2_URL).to.exist;

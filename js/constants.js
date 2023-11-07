@@ -9,5 +9,6 @@ module.exports = {
   DATA_INTEGRITY_CONTEXT_V1_URL: 'https://w3id.org/security/data-integrity/v1',
   DATA_INTEGRITY_CONTEXT_V2_URL: 'https://w3id.org/security/data-integrity/v2',
   CONTEXT_URL: 'https://w3id.org/security/data-integrity/v2',
-  CBORLD_VALUE: 0x30
+  CBORLD_VALUE_V1: 0x30,
+  CBORLD_VALUE: 0x33,
 };
