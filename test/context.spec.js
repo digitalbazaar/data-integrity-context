@@ -23,7 +23,8 @@ describe('Data Integrity Context', () => {
 
   it('contexts', async () => {
     expect(contexts.get(CONTEXT_URL)).to.have.property('@context');
-    expect(contexts.get(DATA_INTEGRITY_CONTEXT_V2_URL)).to.have.property('@context');
+    expect(contexts.get(DATA_INTEGRITY_CONTEXT_V2_URL))
+      .to.have.property('@context');
   });
 
   it('appContextMap', async () => {
