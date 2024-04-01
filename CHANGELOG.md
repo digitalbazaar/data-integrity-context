@@ -1,5 +1,10 @@
 # @digitalbazaar/data-integrity-context ChangeLog
 
+## 2.0.1 - 2024-03-xx
+
+### Changed
+- Fix esm dist files.
+
 ## 2.0.0 - 2022-11-13
 - **BREAKING**: The library now exports named context versions and the default
   context URL and context has been updated to

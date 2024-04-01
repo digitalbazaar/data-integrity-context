@@ -6,7 +6,8 @@
   "module": "./dist/context.esm.js",
   "files": [
     "contexts",
-    "dist/context.js",
+    "dist/**/*.LICENSE.txt",
+    "dist/**/*.js",
     "js"
   ],
   "repository": {
