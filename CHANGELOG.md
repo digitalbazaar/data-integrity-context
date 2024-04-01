@@ -2,7 +2,7 @@
 
 ## 2.0.1 - 2024-03-xx
 
-### Changed
+### Fixed
 - Fix esm dist files.
 
 ## 2.0.0 - 2022-11-13
