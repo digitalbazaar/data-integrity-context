@@ -1,6 +1,6 @@
 # @digitalbazaar/data-integrity-context ChangeLog
 
-## 2.0.1 - 2024-03-xx
+## 2.0.1 - 2024-04-01
 
 ### Fixed
 - Fix esm dist files.
